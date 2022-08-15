@@ -5,13 +5,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:broken": "tsc -p tsconfig.broken.json",
-    "build:working": "tsc"
+    "build": "tsc -p tsconfig.json"
   },
   "author": "Rachael Dawn",
   "license": "MIT",
   "dependencies": {
-    "effector": "^22.3.0"
+    "effector":       "file:effector/npm/effector",
+    "effector-react": "file:effector/npm/effector-react",
+    "effector-solid": "file:effector/npm/effector-solid",
+    "effector-vue":   "file:effector/npm/effector-vue",
+    "forest":         "file:effector/npm/forest"
   },
   "devDependencies": {
     "tslib": "^2.4.0",

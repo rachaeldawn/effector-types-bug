@@ -1,0 +1,4 @@
+[submodule "effector"]
+	path = effector
+	url = https://github.com/rachaeldawn/effector
+	branch = fix/rachael/broken-types
