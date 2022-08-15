@@ -5,7 +5,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "setup:submodules": "git submodule update --init --recursive effector",
+    "setup:effector": "cd effector && yarn install && yarn build",
+    "presetup": "npm run setup:submodules && npm run setup:effector",
+    "setup": "npm install",
+    "predemo": "npm run setup",
+    "demo": "tsc --noEmit"
   },
   "author": "Rachael Dawn",
   "license": "MIT",
