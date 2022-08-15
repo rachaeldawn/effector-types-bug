@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc"
   },
   "author": "Rachael Dawn",
   "license": "MIT",
