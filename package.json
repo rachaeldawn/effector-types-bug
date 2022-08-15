@@ -15,13 +15,15 @@
   "author": "Rachael Dawn",
   "license": "MIT",
   "dependencies": {
-    "effector":       "file:effector/npm/effector",
+    "effector": "file:effector/npm/effector",
     "effector-react": "file:effector/npm/effector-react",
     "effector-solid": "file:effector/npm/effector-solid",
-    "effector-vue":   "file:effector/npm/effector-vue",
-    "forest":         "file:effector/npm/forest"
+    "effector-vue": "file:effector/npm/effector-vue",
+    "forest": "file:effector/npm/forest",
+    "solid-js": "^1.4.8"
   },
   "devDependencies": {
+    "@types/node": "^18.7.5",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   }
