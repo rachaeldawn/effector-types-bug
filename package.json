@@ -10,7 +10,7 @@
     "presetup": "npm run setup:submodules && npm run setup:effector",
     "setup": "npm install",
     "predemo": "npm run setup",
-    "demo": "tsc --noEmit"
+    "demo": "tsc --noEmit && echo 'No build errors' && node ./verify.cjs"
   },
   "author": "Rachael Dawn",
   "license": "MIT",
